@@ -12,6 +12,8 @@ public class Bike {
 		return fuelTank;
 	}
 
+	
+	
 	@Override
 	public String toString() {
 		return "Bike [fuelTank=" + fuelTank + "]";
