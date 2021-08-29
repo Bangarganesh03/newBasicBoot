@@ -1,0 +1,21 @@
+package com.basicboot.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Bike {
+	@Autowired
+	FuelTank fuelTank;
+
+	public FuelTank getFuelTank() {
+		return fuelTank;
+	}
+
+	@Override
+	public String toString() {
+		return "Bike [fuelTank=" + fuelTank + "]";
+	}
+	
+	
+}
